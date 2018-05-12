@@ -1,5 +1,5 @@
 {
-  "name": "fritter-importer",
+  "name": "twitter-go-fritter",
   "version": "1.0.0",
   "description": "Import your Twitter posts to a Fritter profile",
   "main": "src/main.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ciex/fritter-importer.git"
+    "url": "git+https://github.com/ciex/twitter-go-fritter.git"
   },
   "author": "Vincent Ahrend",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ciex/fritter-importer/issues"
+    "url": "https://github.com/ciex/twitter-go-fritter/issues"
   },
-  "homepage": "https://github.com/ciex/fritter-importer#readme",
+  "homepage": "https://github.com/ciex/twitter-go-fritter#readme",
   "devDependencies": {
     "browserify": "^16.2.2",
     "uglify-es": "^3.3.9"
