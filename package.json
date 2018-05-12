@@ -1,0 +1,28 @@
+{
+  "name": "fritter-importer",
+  "version": "1.0.0",
+  "description": "Import your Twitter posts to a Fritter profile",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "browserify src/main.js > dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ciex/fritter-importer.git"
+  },
+  "author": "Vincent Ahrend",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ciex/fritter-importer/issues"
+  },
+  "homepage": "https://github.com/ciex/fritter-importer#readme",
+  "devDependencies": {
+    "browserify": "^16.2.2",
+    "uglify-es": "^3.3.9"
+  },
+  "dependencies": {
+    "@beaker/libfritter": "https://github.com/ciex/libfritter/tarball/ciex/create-post-date-option",
+    "jszip": "^3.1.5"
+  }
+}

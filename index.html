@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Twitter >> Fritter</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./base-min.css">
+    <style>
+      body { max-width: 30em; margin: 3em auto; }
+      input { margin: 1em }
+      p { line-height: 1.33rem }
+    </style>
+  </head>
+
+  <body>
+    <h1>Twitter >> Fritter</h1>
+    <p>
+      This app imports your Twitter posts to your new social profile on
+      Fritter. To get started, request a downloadable archive of
+      your Twitter profile from <a href=''>here</a>.
+    </p>
+    <p>
+      <label>First, select the target profile:</label> <br />
+      <input type='button' id='target_profile' value='Select target' />
+    </p>
+    <p>
+      <label>Then select the source zip file that you downloaded to <strong>instantly</strong> import all posts:</label> <br />
+      <input type="file" id="twitter_archive" disabled />
+    </p>
+    <p>
+      🐦 &nbsp; <a href="dat://fritter.hashbase.io/user/dat://41368dda62ba4d14c34652efce0b12fea716d329747cdb10fcc6fb70eac549b1">me (Vincent) on fritter</a>  <br />
+      💾 &nbsp; <a href='beaker://library/dat://bd6e5fd243851211eb5e32435b58595d2d4b67c6f1a6ccccf5217b271ed14b1e/src/main.js'>View Source</a>
+    </p>
+    <h2>Log</h2>
+    <p id='counter'>_____</p>
+  </body>
+
+  <script type="application/javascript" src="dist/index.js"></script>
+</html>
